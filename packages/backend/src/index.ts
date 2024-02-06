@@ -24,6 +24,5 @@ backend.add(
 );
 backend.add(import('@backstage/plugin-search-backend/alpha'));
 backend.add(import('@backstage/plugin-techdocs-backend/alpha'));
-backend.add(import('@backstage/plugin-notifications-backend'));
 
 backend.start();
