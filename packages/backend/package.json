@@ -31,7 +31,6 @@
     "@backstage/plugin-app-backend": "^0.3.57",
     "@backstage/plugin-auth-node": "^0.4.3",
     "@backstage/plugin-catalog-backend": "^1.16.2",
-    "@backstage/plugin-catalog-backend-module-backstage-openapi": "^0.1.2",
     "@backstage/plugin-catalog-backend-module-openapi": "^0.1.26",
     "@backstage/plugin-catalog-backend-module-scaffolder-entity-model": "^0.1.6",
     "@backstage/plugin-catalog-backend-module-unprocessed": "^0.3.6",
@@ -50,7 +49,9 @@
     "@backstage/plugin-search-backend-module-explore": "^0.1.13",
     "@backstage/plugin-search-backend-module-techdocs": "^0.1.13",
     "@backstage/plugin-search-backend-node": "^1.2.13",
-    "@backstage/plugin-techdocs-backend": "^1.9.2"
+    "@backstage/plugin-techdocs-backend": "^1.9.2",
+    "@frontside/backstage-plugin-graphql-backend": "^0.1.4",
+    "@frontside/backstage-plugin-graphql-backend-module-catalog": "^0.2.3"
   },
   "devDependencies": {
     "@backstage/cli": "^0.25.1"
