@@ -4455,7 +4455,7 @@
     graphql-relay "^0.10.0"
     graphql-type-json "^0.3.2"
 
-"@frontside/backstage-plugin-graphql-backend-node@^0.1.3":
+"@frontside/backstage-plugin-graphql-backend-node@0.1.3", "@frontside/backstage-plugin-graphql-backend-node@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@frontside/backstage-plugin-graphql-backend-node/-/backstage-plugin-graphql-backend-node-0.1.3.tgz#80ada11cdf6a4270e592e87966a407d1ad90f223"
   integrity sha512-/AQXd5JXbrFlcBm44DTPT1tWF3+ex7dxrihS7MBsO720gefSvxzdM38HoCee7ct3Btb8FkJvs5HP8irD5ODcjA==
@@ -14363,7 +14363,7 @@ graphql-language-service@5.2.0, graphql-language-service@^5.2.0:
     nullthrows "^1.0.0"
     vscode-languageserver-types "^3.17.1"
 
-graphql-modules@^2.1.0:
+graphql-modules@^2.1.0, graphql-modules@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/graphql-modules/-/graphql-modules-2.3.0.tgz#6b0c4ea97838a64c1900e61e28ec571cb0922d12"
   integrity sha512-CcrjUjMYHy3zelnffldhR3h6t4ndCVJEzdqBAv/mp4ZGEA/izirOKZB2lnRwpXNqOtVwIz2O/E1Cg/UH8dFNaQ==

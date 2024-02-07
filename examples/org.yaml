@@ -15,3 +15,17 @@ metadata:
 spec:
   type: team
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: squad-1
+  description: Squad 1
+spec:
+  type: squad
+  profile:
+    displayName: Squad 1
+    picture: https://api.dicebear.com/7.x/pixel-art/svg?seed=Retail
+  children: []
+  members: []
+  guild: Backend

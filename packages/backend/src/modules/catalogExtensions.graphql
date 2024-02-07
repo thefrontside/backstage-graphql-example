@@ -1,0 +1,7 @@
+extend interface Group @discriminationAlias(value: "squad", type: "Squad") {
+  name: String! @field(at: "metadata.name")
+}
+
+type Squad @implements(interface: "Group") {
+  guild: String @field(at: "spec.guild")
+}

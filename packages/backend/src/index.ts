@@ -1,6 +1,6 @@
 import { createBackend } from '@backstage/backend-defaults';
 import { graphqlPlugin } from '@frontside/backstage-plugin-graphql-backend';
-import { graphqlModuleCatalog } from '@frontside/backstage-plugin-graphql-backend-module-catalog';
+import { graphqlCatalogExtensionsModule } from './modules/graphqlCatalogExtensions';
 
 const backend = createBackend();
 
@@ -24,6 +24,6 @@ backend.add(import('@backstage/plugin-search-backend-module-techdocs/alpha'));
 backend.add(import('@backstage/plugin-search-backend/alpha'));
 backend.add(import('@backstage/plugin-techdocs-backend/alpha'));
 backend.add(graphqlPlugin());
-backend.add(graphqlModuleCatalog());
+backend.add(graphqlCatalogExtensionsModule());
 
 backend.start();
